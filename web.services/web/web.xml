@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+<servlet>
+  <servlet-name>PersonServlet</servlet-name>
+  <servlet-class>com.objectfrontier.training.java.service.servlet.PersonServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>PersonServlet</servlet-name>
+  <url-pattern>/read</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>PersonServlet</servlet-name>
+  <url-pattern>/person/create</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>PersonServlet</servlet-name>
+  <url-pattern>/person/update</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>AddressServlet</servlet-name>
+  <servlet-class>com.objectfrontier.training.java.service.servlet.AddressServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>AddressServlet</servlet-name>
+  <url-pattern>/readAddress</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>AddressServlet</servlet-name>
+  <url-pattern>/address/create</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>AddressServlet</servlet-name>
+  <url-pattern>/address/update</url-pattern>
+</servlet-mapping>
+
+</web-app>

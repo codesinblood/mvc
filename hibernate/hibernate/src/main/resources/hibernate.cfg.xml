@@ -1,0 +1,33 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+    <session-factory>
+ 
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+              <!-- Sample MySQL URL provided  -->  
+        <property name="connection.url">jdbc:mysql://pc1620:3306/narayanan_mani</property>
+        <property name="connection.username">narayanan_mani</property>
+        <property name="connection.password">demo</property>
+           
+        <property name="show_sql">true</property>
+ 
+        <property name="current_session_context_class">thread</property>
+       
+        <mapping class="com.objectfrontier.training.hibernate.model.Address"/>
+        <mapping class="com.objectfrontier.training.hibernate.model.Person"/>
+ 
+    </session-factory>
+</hibernate-configuration>
+
+<!-- 
+hibernate.connection.driver_class = com.mysql.jdbc.Driver
+hibernate.connection.url = jdbc:mysql://pc1620:3306/narayanan_mani
+hibernate.connection.username = narayanan_mani
+hibernate.connection.password = demo
+hibernate.show_sql = true
+hibernate.current_session_context_class = thread
+
+hibernate.dialect = org.hibernate.dialect.MySQLDialect -->

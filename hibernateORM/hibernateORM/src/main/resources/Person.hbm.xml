@@ -1,0 +1,41 @@
+<hibernate-mapping>
+
+    <class name="com.objectfrontier.training.hibernateORM.model.Person" table="person_service" >
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        
+        <property name="firstName" type="string">
+            <column name="fname" length="50" not-null="true"/>
+        </property>
+        
+        <property name="lastName" type="string">
+            <column name="lname" length="50" not-null="true"/>
+        </property>
+        
+        <property name="email" type="string">
+            <column name="email" length="100" not-null="true" unique="true"/>
+        </property>
+            
+        <property name="birthDate" type="java.lang.String">
+            <column name="birth_date" not-null="true"/>
+        </property>
+        
+        <property name="createdDate" type="java.sql.Timestamp">
+            <column name="created_date" not-null="true"/>
+        </property>
+        
+        <property name="password" type="string">
+            <column name="password" length="15" not-null="true"/>
+        </property>
+        
+        <property name="isAdmin" type="java.lang.Boolean">
+            <column name="isAdmin" length="15" not-null="true"/>
+        </property>
+        
+        <one-to-one name="address" class="com.objectfrontier.training.hibernateORM.model.Address"
+            cascade="all" constrained = "true" fetch="join"></one-to-one>
+        
+    </class>
+</hibernate-mapping>

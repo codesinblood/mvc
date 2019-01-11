@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" output="classes" path="src"/>
+	<classpathentry kind="src" output="employee" path="web"/>
+	<classpathentry kind="lib" path="D:/dev/training/narayanan.mani/web.services/web/lib/jcommander.jar"/>
+	<classpathentry kind="lib" path="D:/dev/training/narayanan.mani/web.services/web/lib/testng.jar"/>
+	<classpathentry kind="lib" path="D:/dev/training/narayanan.mani/web.services/web/lib/HikariCP-2.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/dev/training/narayanan.mani/web.services/web/lib/httpclient-4.5.2.jar" sourcepath="D:/dev/training/narayanan.mani/web.services/web/lib"/>
+	<classpathentry kind="lib" path="D:/dev/training/narayanan.mani/web.services/web/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="D:/dev/training/narayanan.mani/web.services/web/lib/jackson-annotations-2.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/dev/training/narayanan.mani/web.services/web/lib/jackson-core-2.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/dev/training/narayanan.mani/web.services/web/lib/jackson-databind-2.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/dev/training/narayanan.mani/web.services/web/lib/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="lib" path="D:/dev/training/narayanan.mani/web.services/web/lib/mysql-connector-java-5.1.38-bin.jar"/>
+	<classpathentry kind="lib" path="D:/dev/training/narayanan.mani/web.services/web/lib/org-apache-commons-logging.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/cdi-core-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/cdi-servlet-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/cdi-websocket-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/gcloud-session-manager-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-alpn-server-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-annotations-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-client-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-continuation-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-deploy-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-http-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-infinispan-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-io-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-jaas-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-jaspi-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-jmx-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-jndi-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-nosql-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-plus-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-proxy-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-quickstart-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-rewrite-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-schemas-3.1.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-security-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-server-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-servlet-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-servlets-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-util-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-webapp-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/jetty-xml-9.3.6.v20151106.jar"/>
+	<classpathentry kind="var" path="JETTY_SERVER/lib/servlet-api-3.1.jar"/>
+	<classpathentry kind="src" output="classes" path="res"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

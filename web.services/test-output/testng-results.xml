@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="977" started-at="2018-11-24T07:27:14Z" finished-at="2018-11-24T07:27:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="977" started-at="2018-11-24T07:27:14Z" finished-at="2018-11-24T07:27:15Z">
+      <class name="com.objectfrontier.training.java.service.test.PersonServletTest">
+        <test-method status="PASS" signature="testRead_positive(com.objectfrontier.training.java.service.pojo.Person, com.objectfrontier.training.java.service.pojo.Person)[pri:0, instance:com.objectfrontier.training.java.service.test.PersonServletTest@7ca48474]" test-instance-name="" name="testRead_positive" duration-ms="931" started-at="2018-11-24T12:57:14Z" data-provider="dp_ReadPositiveCase" finished-at="2018-11-24T12:57:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Person [first_name=ed, last_name=null, email=null, address=null, birth_date=null, created_date=null]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Person [first_name=ed, last_name=null, email=null, address=null, birth_date=null, created_date=null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead_positive -->
+      </class> <!-- com.objectfrontier.training.java.service.test.PersonServletTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+ ,Nancie,ilial@aol.com,2,4/7/1997,Valluvar Colony,Tuty,636015,First Name cannot be empty
+Bethany, ,ilial@aol.com,3,4/8/1997,Valluvar Colony,Tuty,636016,Last Name cannot be empty
+Bethany,Nancie, ,4,4/9/1997,Valluvar Colony,Tuty,636017,Email cannot be null
+Bethany,Nancie,ilial@aol.com,5, ,Valluvar Colony,Tuty,636018,City cannot be empty
+Bethany,Nancie,ilial@aol.com,6,4/11/1997, ,Tuty,636019,Street cannot be empty
+Bethany,Nancie,ilial@aol.com,7,4/12/1997,Valluvar Colony, ,636020,City cannot be null
+Bethany,Nancie,ilial@aol.com,8,4/13/1997,Valluvar Colony,Tuty,0,Person does not exist
+Bethany,Bethany,ilial@aol.com,8,4/13/1997,Valluvar Colony,Tuty,654151,First Name and Last Name cannot be same
+Bethany,Nancie,codex@aol.com,8,4/13/1997,Valluvar Colony,Tuty,654151,Email already exists
